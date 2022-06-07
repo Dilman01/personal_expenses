@@ -1,35 +1,8 @@
 *.cpp linguist-detectable=false
-*.cpp linguist-detectable=false
 *.cmake linguist-detectable=false
 *.h linguist-detectable=false
 *.kotlin linguist-detectable=false
 *.txt linguist-detectable=false
-*.cmake linguist-detectable=false
-*.h linguist-detectable=false
-*.kotlin linguist-detectable=false
-*.txt linguist-detectable=false
-**/windows/runner/CMakeLists.txt linguist-detectable=false
-**/ios/Runner/AppDelegate.swift linguist-detectable=false
-**/windows/runner/utils.cpp linguist-detectable=false
-**/windows/flutter/generated_plugin_registrant.h linguist-detectable=false
-**/windows/runner/win32_window.cpp linguist-detectable=false
-**/windows/runner/flutter_window.cpp linguist-detectable=false
-**/windows/runner/main.cpp linguist-detectable=false
-**/windows/flutter/generated_plugin_registrant.cc linguist-detectable=false
-**/windows/runner/flutter_window.h linguist-detectable=false
-**/windows/runner/win32_window.h linguist-detectable=false
-**/windows/runner/utils.h linguist-detectable=false
-**/android/app/src/main/kotlin/com/example/flutter_complete_guide/MainActivity.kt linguist-detectable=false
-**/windows/runner/CMakeLists.txt linguist-detectable=false
-**/ios/Runner/AppDelegate.swift linguist-detectable=false
-**/windows/runner/utils.cpp linguist-detectable=false
-**/windows/flutter/generated_plugin_registrant.h linguist-detectable=false
-**/windows/runner/win32_window.cpp linguist-detectable=false
-**/windows/runner/flutter_window.cpp linguist-detectable=false
-**/windows/runner/main.cpp linguist-detectable=false
-**/windows/flutter/generated_plugin_registrant.cc linguist-detectable=false
-**/windows/runner/flutter_window.h linguist-detectable=false
-**/windows/runner/win32_window.h linguist-detectable=false
-**/windows/runner/utils.h linguist-detectable=false
-**/windows/runner/utils.cpp linguist-detectable=false
-
+*.swift linguist-detectable=false
+*.kt
+*.cc
