@@ -31,5 +31,5 @@
 **/windows/runner/flutter_window.h linguist-detectable=false
 **/windows/runner/win32_window.h linguist-detectable=false
 **/windows/runner/utils.h linguist-detectable=false
-**/android/app/src/main/kotlin/com/example/flutter_complete_guide/MainActivity.kt linguist-detectable=false
+**/windows/runner/utils.cpp linguist-detectable=false
 
