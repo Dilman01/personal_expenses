@@ -4,5 +4,6 @@
 *.kotlin linguist-detectable=false
 *.txt linguist-detectable=false
 *.swift linguist-detectable=false
-*.kt
-*.cc
+*.kt linguist-detectable=false
+*.cc linguist-detectable=false
+*.html linguist-detectable=false
