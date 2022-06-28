@@ -64,7 +64,7 @@ class _NewTransactionState extends State<NewTransaction> {
             ),
             TextButton(
               style: TextButton.styleFrom(
-                primary: Colors.purple,
+                primary: Theme.of(context).primaryColor,
               ),
               onPressed: submitData,
               child: Text(
