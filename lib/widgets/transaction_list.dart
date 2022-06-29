@@ -1,5 +1,3 @@
-// ignore_for_file: prefer_const_constructors
-
 import 'package:flutter/material.dart';
 import '../models/transaction.dart';
 import 'package:intl/intl.dart';
@@ -21,7 +19,7 @@ class TransactionList extends StatelessWidget {
                     'No transactions added yet!',
                     style: Theme.of(context).textTheme.headline6,
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 20,
                   ),
                   Container(
@@ -39,7 +37,7 @@ class TransactionList extends StatelessWidget {
             itemBuilder: ((context, index) {
               return Card(
                 elevation: 5,
-                margin: EdgeInsets.symmetric(
+                margin: const EdgeInsets.symmetric(
                   vertical: 8,
                   horizontal: 5,
                 ),
@@ -60,17 +58,17 @@ class TransactionList extends StatelessWidget {
                       DateFormat.yMMMd().format(transactions[index].date!)),
                   trailing: MediaQuery.of(context).size.width > 450
                       ? TextButton.icon(
-                          icon: Icon(
+                          icon: const Icon(
                             Icons.delete,
                           ),
-                          label: Text('Delete'),
+                          label: const Text('Delete'),
                           onPressed: () => deleteTx(transactions[index].id),
                           style: TextButton.styleFrom(
                             primary: Theme.of(context).errorColor,
                           ),
                         )
                       : IconButton(
-                          icon: Icon(
+                          icon: const Icon(
                             Icons.delete,
                           ),
                           color: Theme.of(context).errorColor,

@@ -1,5 +1,3 @@
-// ignore_for_file: prefer_const_constructors
-
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
@@ -17,7 +15,7 @@ class AdaptiveButton extends StatelessWidget {
             onPressed: () => handler(),
             child: Text(
               text,
-              style: TextStyle(
+              style: const TextStyle(
                 fontWeight: FontWeight.bold,
               ),
             ),
@@ -29,7 +27,7 @@ class AdaptiveButton extends StatelessWidget {
             onPressed: () => handler(),
             child: Text(
               text,
-              style: TextStyle(
+              style: const TextStyle(
                 fontWeight: FontWeight.bold,
               ),
             ),

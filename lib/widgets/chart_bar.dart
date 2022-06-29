@@ -1,5 +1,3 @@
-// ignore_for_file: prefer_const_constructors
-
 import 'package:flutter/material.dart';
 
 class ChartBar extends StatelessWidget {
@@ -7,7 +5,7 @@ class ChartBar extends StatelessWidget {
   final double? spendingAmount;
   final double? spedningPctOfTotal;
 
-  ChartBar(this.label, this.spendingAmount, this.spedningPctOfTotal);
+  const ChartBar(this.label, this.spendingAmount, this.spedningPctOfTotal);
 
   @override
   Widget build(BuildContext context) {

@@ -1,6 +1,3 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
-// ignore_for_file: prefer_const_constructors
-
 import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
@@ -75,7 +72,7 @@ class _NewTransactionState extends State<NewTransaction> {
             crossAxisAlignment: CrossAxisAlignment.end,
             children: [
               TextField(
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                   labelText: 'Title',
                 ),
                 controller: titleController,
@@ -86,7 +83,7 @@ class _NewTransactionState extends State<NewTransaction> {
                 // },
               ),
               TextField(
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                   labelText: 'Amount',
                 ),
                 controller: amountController,
@@ -116,7 +113,7 @@ class _NewTransactionState extends State<NewTransaction> {
                       color: Theme.of(context).textTheme.button!.color),
                 ),
                 onPressed: submitData,
-                child: Text(
+                child: const Text(
                   'Add Transaction',
                 ),
               ),
