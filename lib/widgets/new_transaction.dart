@@ -1,8 +1,12 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 // ignore_for_file: prefer_const_constructors
 
+import 'dart:io';
+
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:personal_expenses/widgets/adaptive_button.dart';
 
 class NewTransaction extends StatefulWidget {
   final Function addTX;
@@ -93,7 +97,7 @@ class _NewTransactionState extends State<NewTransaction> {
               Container(
                 height: 70,
                 child: Row(
-                  children: [
+                  children: <Widget>[
                     Expanded(
                       child: Text(
                         _selectedDate == null
@@ -101,18 +105,7 @@ class _NewTransactionState extends State<NewTransaction> {
                             : 'Picked Date: ${DateFormat.yMd().format(_selectedDate!)}',
                       ),
                     ),
-                    TextButton(
-                      style: TextButton.styleFrom(
-                        primary: Theme.of(context).primaryColor,
-                      ),
-                      onPressed: _presentDatePicker,
-                      child: Text(
-                        'Choose Date',
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ),
+                    AdaptiveButton('Choose Date', _presentDatePicker),
                   ],
                 ),
               ),
